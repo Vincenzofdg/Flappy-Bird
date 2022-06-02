@@ -7,24 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flappy Bird</title>
   <link rel="shortcut icon" href="#">
-  <link rel="stylesheet" href="style.css">
+
+  <style>
+    body {
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+    }
+
+    canvas {
+      width: 60%;
+      height: 100vh;
+    }
+  </style>
 </head>
 
 <body>
-  <main>
-    <article class="description">
-      <h1><strong>Flappy Bird</strong></h1>
-      <div class="text">
-        <p>   Flappy Bird foi criado e desenvolvido por Dong Nguyen. O personagem foi criado originalmente para um jogo de plataforma em 2012, o qual foi cancelado. Flappy Bird foi criado em menos de 3 dias. Nguyen afirma que nenhuma parte de seu jogo foi feita para ser impossível de se passar.</p>
-      </div>
-    </article>
-    <div class="game">
-      <canvas id="game-canvas" width="320" height="480"></canvas>
-    </div>
-
-  </main>
-
-
+  <canvas id="game-canvas" width="320" height="480"></canvas>
   <script src="script.js"></script>
 </body>
 
