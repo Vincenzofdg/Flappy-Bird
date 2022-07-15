@@ -99,7 +99,7 @@ function criaFlappyBird() {
     altura: 24,
     x: 10,
     y: 50,
-    pulo: 4.6,
+    pulo: 4,
     pula() {
       console.log('devo pular');
       console.log('[antes]', flappyBird.velocidade);
